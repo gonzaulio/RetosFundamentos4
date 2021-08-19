@@ -6,5 +6,3 @@ let segundopunto:punto = new punto(1,1);
 let tercerpunto:punto = new punto(5,3);
 let primertriangulo:triangulo = new triangulo(primerpunto, segundopunto, tercerpunto);
 console.log(primertriangulo.calcularLongitudLados());
-
-console.log(primerpunto.calcularDistancia(segundopunto));

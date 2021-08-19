@@ -4,7 +4,7 @@ exports.triangulo = void 0;
 var triangulo = /** @class */ (function () {
     function triangulo(vertice1, vertice2, vertice3) {
         this.vertice1 = vertice1;
-        this.vertice3 = vertice2;
+        this.vertice2 = vertice2;
         this.vertice3 = vertice3;
     }
     triangulo.prototype.calcularLongitudLados = function () {

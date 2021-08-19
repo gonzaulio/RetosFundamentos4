@@ -7,4 +7,5 @@ var segundopunto = new Punto_1.punto(1, 1);
 var tercerpunto = new Punto_1.punto(5, 3);
 var primertriangulo = new Triangulo_1.triangulo(primerpunto, segundopunto, tercerpunto);
 console.log(primertriangulo.calcularLongitudLados());
-console.log(primerpunto.calcularDistancia(segundopunto));
+// console.log(primertriangulo.calcularLongitudLados());
+// console.log(primerpunto.calcularDistancia(segundopunto));

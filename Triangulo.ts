@@ -9,11 +9,12 @@ export class triangulo
     constructor(vertice1:punto, vertice2:punto, vertice3:punto)
     {
         this.vertice1 = vertice1
-        this.vertice3 = vertice2
+        this.vertice2 = vertice2
         this.vertice3 = vertice3
     }
 
-    calcularLongitudLados(): number[]
+
+    calcularLongitudLados()
     {
         let arraylados:number[] = []
         arraylados.push(this.vertice1.calcularDistancia(this.vertice2));
